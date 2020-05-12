@@ -1,10 +1,10 @@
 ![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
 
-# Lab | SQL
+# Lab | SQL 2
 
 ## Introduction
 
-Run your first SQL commands! In this lab, we will practice selecting and projecting data. You can finish all questions with only those clauses:
+Run your first SQL commands! In this lab, we will practice selecting and projecting data using the olist database (details on initiating the database found in the "initdb" folder). You can finish all questions with only those clauses:
 - `SELECT`
 - `SELECT DISTINCT`
 - `FROM`
