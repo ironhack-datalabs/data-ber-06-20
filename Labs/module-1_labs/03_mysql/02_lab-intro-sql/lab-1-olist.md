@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Run your first SQL commands! In this lab, we will practice selecting and projecting data. You can finish all questions with only those clauses:
+Run your first SQL commands! In this lab, we will practice selecting and projecting data using the olist database (details on initiating the database found in the "initdb" folder). You can finish all questions with only those clauses:
 - `SELECT`
 - `SELECT DISTINCT`
 - `FROM`
