@@ -2,7 +2,7 @@
 
 # Lab | SQL - Additional exercises
 
-##Use bank database
+## Use bank database
 
 ### 1. Count the number of clients per gender
 
