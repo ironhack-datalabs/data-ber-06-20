@@ -2,6 +2,8 @@
 
 # Lab | SQL - Additional exercises
 
+##Use bank database
+
 ### 1. Count the number of clients per gender
 
 ### 2. Are there any accounts that have more than 2 linked clients?
