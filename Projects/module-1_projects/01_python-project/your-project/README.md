@@ -29,6 +29,5 @@ What does your repository look like? Explain your folder and file structure.
 ## Links
 Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project. 
 
-[Repository](https://github.com/)  
-[Slides](https://slides.com/)  
+[Repository](https://github.com/)   
 [Trello](https://trello.com/en)  
