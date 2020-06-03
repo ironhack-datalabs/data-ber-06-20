@@ -32,7 +32,7 @@ The **mandatory** requirements that this project needs to satisfy are:
 * Your project must include data from at least 2 different data sources (APIs & web, dataset & APIs, etc.).
 * The project needs to be presented within 5 minutes to your colleagues on the day of the presentation.
 
-The **deadline** to turn in the deliverables is Sunday, April 12 at 23:59.
+The **deadline** to turn in the deliverables is Sunday at 23:59.
 
 ## Mentoring
 The TAs will be your mentors!
