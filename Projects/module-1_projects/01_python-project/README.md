@@ -1,135 +1,81 @@
-![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
-
-# Project: Escape Room Python Game
-
-## Overview
-
-The goal of this project is for you to apply the Python programming skills you have learned this week in solving a real problem. We present you the design of a classic game that can be played via text - Escape Room. Your goal is to develop the game using Python based on the game design.
-
-Read the game narratives and technical requirements carefully. Plan how you will achieve your goal with pseudo codes and/or flowchart. Review the logic and process in order to avoid potential errors. Then implement with Python code. After that, test your code several times with different inputs and make sure it's rock solid. The instructional team is standing by to help you in case you run into any problems.
-
----
-
-## Game Design
-
-### Game Map
-
-![Game Map](escape-room-plan.jpg)
-
-### Game Narratives
-
-#### Game Room
-
-You wake up on a couch and find yourself in a strange house with no windows which you have never been to before. You don't remember why you are here and what had happened before. You feel some unknown danger is approaching and you must get out of the house, NOW!
-
-You are now in game room.
-
-What would you like to do?
-
-You explore the room. This is Game Room. You find couch, piano, and Door A.
-
-You examine couch. There isn't anything interesting about it.
-
-You examine Door A. It is locked but you don't have the key.
-
-You examine piano. You find key for Door A.
-
-You examine Door A. Your unlock it with a key you have.
-
-Do you want to go to the next room?
-
-#### Bedroom 1
-
-You are now in Bedroom 1.
-
-What would you like to do?
-
-You explore the room. This is Bedroom 1. You find queen bed, Door A, Door B, and Door C.
-
-You examine queen bed. You find key for Door B.
-
-You examine Door C. It is locked but you don't have the key.
-
-You examine Door B. Your unlock it with a key you have.
-
-Do you want to go to the next room?
-
-#### Bedroom 2
-
-You are now in Bedroom 2.
-
-What would you like to do?
-
-You explore the room. This is Bedroom 2. You find double bed, dresser, and Door B.
-
-You examine double bed. You find key for Door C.
-
-You examine dresser. You find key for Door D.
-
-You examine Door B. Your unlock it with a key you have.
-
-Do you want to go to the next room?
-
-#### Bedroom 1
-
-You are now in Bedroom 1.
-
-What would you like to do?
-
-You examine Door C. Your unlock it with a key you have.
-
-Do you want to go to the next room?
-
-#### Living Room
-
-You are now in Living Room.
-
-What would you like to do?
-
-You explore the room. This is Living Room. You find dining table, Door C, and Door D.
-
-You examine Door D. Your unlock it with a key you have.
-
-Do you want to go to the next room?
-
-#### Outside
-
-Congrats! You escaped the room!
-
----
-
-## Getting Started
-
-Overwhelmed and don't know where to start? This is a touch challenge we know. But don't worry. We have included a working example for you to reference in which only 1 room (game room) is included. Read the example and make sure you understand it. Then you can expand on top of the example to code the rest of the rooms.
-
-The provided example is just a Minimal Viable Product (MVP). It is fully functional but not bullet proof. You should be aware of its limitations while you are working and try to make your final product as robust as possible.
-
-## Technical Requirements
-
-* Use Python lists and dictionaries to define the rooms, items, and relations of them.
-
-* Use a Python dictionary to store the game state. Update the state dictionary when progresses are made such as a key is collected.
-
-* Use Python functions to play the game. Don't use procedural code.
-
-* After completing each game action, call the next function to continue playing until the winning condition is reached.
-
-* The winning condition is for the player to successfully make to the "Outside" room. When this happens, congrat the player and end the game.
-
-## Necessary Deliverables
-
-The following deliverables should be pushed to your Github repo.
-
-* `main.ipynb` that contains your solution.
-
-## Suggested Ways to Get Started
-
-1. Start Jupyter Notebook from this lab directory.
-
-1. Launch `sample-code.ipynb` and read through the file. Also execute the code and play the game. Make sure you understand what each line of the codes does.
-
-1. Create `main.ipynb` and copy the codes from `sample-code.ipynb`. Expand the code following the example to create Bedroom 1.
-
-1. Test the game with Game Room and Bedroom 1. Make sure everything works then work on Bedroom 2 then Living Room.
-
-1. Test the whole game. Try to make all kinds of inputs to make sure your game is rock solid and will not break.
+<img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
+
+# Build your own game!
+
+## Content
+- [Project Description](#project-description)
+- [Games](#games)
+- [Project Goals](#project-goals)
+- [Requirements & Deliverables](#requirements-&-deliverables)
+- [Schedule](#schedule)
+- [Presentation](#presentation)
+
+## Project Description
+In this project, you will create your first software!
+You are tasked with creating a **game** that interacts with the user, using the functions and basic python resources you have learned during the week. Your game will be able to take an input from the user and provide an output. 
+
+You will also present your game to the class. 
+
+## Games
+You must come to an agreement with your colleagues so that each of you develops one of the following games:
+
+* Strong Random Password Generator
+* Guess The Number
+* Hangman
+* Message Encryption & Decryption
+* Mastermind
+* Tic Tac Toe
+* Blackjack
+* Soldier & Dice (Risk)
+
+## Project Goals
+During this project you will:
+* Fork and manage your own git repository. 
+* Build your own code from scratch. 
+* Put into practice the basic python concepts learned during the week.
+* Get used to public presentations. 
+
+## Requirements & Deliverables
+The **mandatory** requirements that this project needs to satisfy are: 
+* The project must be planned, using a Kanban or Trello board. You can find a template for Trello [here](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game). Remember that you **CAN'T CODE** until your project is planned. 
+* Your repository must be clean and organized, which means that it must include a *.gitignore* file and a README file, as well as have a well-structured file organization. 
+* Your code must include functions. 
+
+The **mandatory** deliverables that you must turn in are:
+* Link to the repository you used while building your project. The repository must include all the files you used to build your game. Remember to commit often!
+* Link to Trello or picture of your Kanban Board. Include the link or picture in the README file.
+
+The **deadline** to turn in the deliverables is right before the project presentations. 
+
+## Schedule
+| Wednesday |  
+|:--------:|
+* Choose your game.
+* Plan your project. Remember that we are providing you with a Trello [template](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game). 
+* Fork the repository and edit the README overview. You can find a [template](https://github.com/ta-data-bcn/Project-Week-1-Build-Your-Own-Game/blob/master/your-project/README.md) for your README file in this repository. Remember to keep the README up-to-date. 
+* Once you finish, start coding!
+
+| Thursday |  
+|:--------:|
+* In the evening, start preparing the slides for Friday's presentation. 
+
+| Friday|  
+|:--------:|
+* Presentation time! 
+
+## Presentation
+The presentation time limit is **5 minutes**! You will have **3 minutes** to present your project to the class and then **2 minutes** for Q&A. 
+
+The slides of your presentation must include the content listed below and a demo of your game:
+
+* Title of the project + Student name  
+* Description of your game  
+* Challenges  
+* Process  
+* Learnings    
+* If I were to start from scratch...    
+* Improvements  
+* Highlights  
+* Demo (ONE MINUTE)
+
+Tip: you have only 3 minutes for this presentation so keep it simple!
