@@ -13,7 +13,7 @@ In this project, you will create your first software!
 You are tasked with creating a **game** that interacts with the user, using the functions and basic python resources you have learned during the week. Your game will be able to take an input from the user and provide an output. For project planning you can use a Kanban or Trello board. You can find a template for Trello [here](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game).
 
 ## Games
-You must come to an agreement with your colleagues so that each of you develops one of the following games:
+You can develop one of the following games or another game of your choice:
 
 * Strong Random Password Generator
 * Guess The Number
