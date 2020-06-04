@@ -26,7 +26,7 @@ You must come to an agreement with your colleagues so that each of you develops 
 
 ## Project Goals
 During this project you will:
-* Fork and manage your own git repository. 
+* Create your own git repository. 
 * Build your own code from scratch. 
 * Put into practice the basic python concepts learned during the week.
 * Get used to public presentations. 
