@@ -28,8 +28,7 @@ You can develop one of the following games or another game of your choice:
 During this project you will:
 * Create your own git repository. 
 * Build your own code from scratch. 
-* Put into practice the basic python concepts learned during the week.
-* Get used to public presentations. 
+* Put into practice the basic python concepts learned during the week. 
 
 ## Requirements & Deliverables
 The **mandatory** requirements that this project needs to satisfy are:  
