@@ -51,6 +51,3 @@ FROM olist.customers c
     ON o.order_id = oi.order_id
 GROUP BY c.customer_state
 ORDER BY items_sold DESC;
-
-select customer_state from olist.customers where customer_id = '23g3gws3t4y';
-
