@@ -111,7 +111,11 @@ The presentation time limit is **5 minutes**! Our suggestion is to include at le
 ### Lists
 [AnyAPI](https://any-api.com/)  
 [Top 50 Most Popular APIs on RapidAPI](https://blog.rapidapi.com/most-popular-apis/)  
-[18 Fun APIs For Your Next Project](https://medium.com/@vicbergquist/18-fun-apis-for-your-next-project-8008841c7be9)  
+[18 Fun APIs For Your Next Project](https://medium.com/@vicbergquist/18-fun-apis-for-your-next-project-8008841c7be9) 
+[reddit datasets](https://reddit.com/r/datasets)
+[FiveThirtyEight](https://data.fivethirtyeight.com/)
+[FiveThirtyEight on github](https://github.com/fivethirtyeight)
+[US Government open data](https://www.data.gov/)
 
 ### Some Ideas
 [WeatherBit](https://www.weatherbit.io/api)  
