@@ -14,13 +14,13 @@
 - [Resources](#resources)
 
 ## Project Description  
-For this project you will be working in a **team**. You will have to choose a topic and find all the relevant data yourselves. This means you can connect to an API, find a dataset or scrape data from the web. Then you must organize, clean and analyze the data you found and present your findings in a presentation (you may use plots!).  
+For this project you will be working in a **team**. You will have to choose a topic and find all the relevant data yourselves. This means you can connect to an API, find a dataset or scrape data from the web. Then you must organize, clean and (optional) analyze the data you found and present your findings in a presentation (you may use plots!).  
 
 ## Project Goals
 During this project you will:
 * Learn how to obtain data from different sources, including APIs, open source datasets and/or scrape data from the web.
-* Learn how to use plots(pandas plots) to better understand the data you are using and also to explain insights to your audience.
-* Learn how to integrate plots into your presentations.
+* Practice how clean data using vectorized methods.
+* Begin to practice basic plotting.
 
 ## Data Workflow
 In this project you will focus on Data Extraction techniques, while you continue developing your Data Wrangling skills.
@@ -55,7 +55,7 @@ Your mentors are **not** meant to:
 * Find interesting questions related to your topic.
 * Brainstorm to find out what kind of data you can use to answer those questions.
 * Research and look for the data you need. Remember that you need to use at least two different sources.
-* Fork the project repository and edit the README overview. You can find a [template](https://github.com/ta-data-bcn/Project-Week-3-Data-Thieves/blob/master/your-project/README.md) for your README file in this repository. Remember to keep the README up-to-date.
+* Create your own repo, assign your group members as contributors, and commit often. You can find a [template](https://github.com/ta-data-bcn/Project-Week-3-Data-Thieves/blob/master/your-project/README.md) for your README file in this repository. Remember to keep the README up-to-date.
 
 **Step 2**
 * Plan your project. Remember that we are providing you with a Trello [template](https://trello.com/b/kImhfE7w/data-projects). Define tasks, specifying those to be done individually and those to be done together. Remember that you **CAN'T CODE** until your project is planned.
@@ -64,27 +64,23 @@ Your mentors are **not** meant to:
 * Design your database.
 
 **Step 3**
-* **CHECKPOINT:** Database validation with the Lead Teacher and TAs.
-* Start working on your analysis and plots. Think about which plots will help with your analysis and design the structure of your presentation.  Start working on your presentation.
+* Design your presentation, focusing on techniques, trouble points, and workflow. Analysis and plotting are optional and should not be the focus of the presentation.
 
 **Step 4**
-* Complete your analysis and presentation.
-
-**Step 5**
-* Presentation time at **14:00** on Friday! There will be a 10-minute break during the presentations!
+* Presentation time at **14:00** on Friday! There will be a 1-minute dance break between groups!
 
 ## Necessary Deliverables
-The following deliverables should be pushed to your Github repo for this chapter.
+The following deliverables should be pushed to your Github repo and the link should be submitted via the student portal.
 
 * **A Jupyter Notebook (.ipynb) file**:
 The structure should be:
 1. Title of the project.
-2. Introduction to the analysis.
+2. Introduction to hypothoses.
 3. Data used (sources, limitations, cleaning, etc...)
-4. Questions you want to answer. Each question should include a graph and an answer to that question.
-5. Insights derived from your analysis.
+4. Any analysis and plots created.
+5. Any insights derived from your basic analysis.
 6. Possible further questions and improvements.
-* **An output folder**
+* **A data folder**
 * **A ``README.md`` file**  
 Look [here](https://www.makeareadme.com/) for tips on how to structure a README.md file.
 
@@ -97,8 +93,8 @@ The presentation time limit is **5 minutes**! Our suggestion is to include at le
 * Goals of the project
 * Data - sources, problems and limitations
 * Database - data wrangling/cleaning and database structure
-* Main insights
 * Organization. Did you follow your workflow plan? Did you add something after starting the project? Did you follow your best practices agreements? Did you think about the risk management?
+* Any insights
 * Questions you were not able to answer and why
 * Learnings
 
