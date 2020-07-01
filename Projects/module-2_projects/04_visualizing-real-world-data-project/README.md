@@ -42,8 +42,8 @@ The following deliverables should be pushed to your Github repo for this chapter
 * **Day 1-2** - clean and wrangle your data. Maybe add a new data source if you feel that you need it. 
 * **Day 2-4** - start to analyze your data. Decide which statistical models you would like to use. Fit your models (be careful not to overfit!) and start plotting. Focus on good annotations that help people understand your thought process and what the data is showing. 
 * **Day 3-5** - prep your presentation. This can be something you slowly start to think of during the analysis phase. It will help you to guide your analysis in a way that creates a story. Your audience could include visitors from the other bootcamps, so try to focus on understandable results instead of the actual statistical methods used. 
-* **Day 5** Present! Ideally you will spend most of Day 5 practicing your presentation and preparing for questions that people may ask!
-* **Weekend** Submit your Github repo by Sunday at 23:59 and get some well-deserved rest!
+* **Day 5** - Present! Ideally you will spend most of Day 5 practicing your presentation and preparing for questions that people may ask!
+* **Weekend** - Submit your Github repo by Sunday at 23:59 and get some well-deserved rest!
 
 ## Project Feedback + Evaluation
 
