@@ -1,0 +1,85 @@
+#!/usr/bin/env python3
+
+import pandas as pd
+from fuzzywuzzy import fuzz
+import re
+import pickle
+import numpy as np
+import argparse
+
+
+# load movie_map
+with open("movie_map.pkl", "rb") as mm:
+    movie_map = pickle.load(mm)
+
+# load model_knn
+with open("model_knn.pkl", "rb") as mk:
+    model_knn = pickle.load(mk)
+
+# load movie_list
+with open("movie_list.pkl", "rb") as ml:
+    movie_list = pickle.load(ml)
+
+# load movie_features
+with open("movie_features.pkl", "rb") as mf:
+    movie_features = pickle.load(mf)
+
+
+def find_movie_id(query: str) -> int:
+    matches = []
+    for title, movie_id in movie_map.items():
+
+        # remove the year
+        title_pattern = r"(.*)\s\(\d{4}\)$"
+        extr_title, = re.findall(title_pattern, title)
+
+        # compute the ratio and remove case-sensitivity
+        ratio = fuzz.ratio(extr_title.lower(), query)
+
+        # add all matches to list, if ratio > 60
+        if ratio > 60:
+            matches.append((extr_title, movie_id, ratio))
+            
+    if not matches:
+        print("Sorry, could not find your movie :(")
+        return
+    
+    return sorted(matches, key=lambda x: x[2], reverse=True)[0][1]
+
+
+def movieid_to_vec(movie_id: int) -> np.array:
+    return movie_features.loc[movie_id].values.reshape(1, -1)
+
+
+def print_recommendations(knn_output: tuple) -> None:
+    distances, indices = knn_output
+    
+    for i, res in enumerate(zip(distances.flatten(), indices.flatten())):
+        distance, index = res
+        name = movie_list.iloc[index]["title"]
+        if i == 0:
+            print(f"Recommendations for {name}:")
+            print("-----------------------------------------\n")
+        else:
+            print(f"{i}: {name}, with distance {round(distance,2)}")
+
+
+def recommend_movies(query, n=5):
+    movie_id = find_movie_id(query)
+    if not movie_id:
+        return
+    
+    movie_vec = movieid_to_vec(movie_id)
+    
+    n_recs = n + 1
+    recs = model_knn.kneighbors(movie_vec, n_neighbors=n_recs)
+    
+    print_recommendations(recs)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Give me a movie title")
+    parser.add_argument("title", metavar="t",
+                        help="Pass a movie title")
+    args = parser.parse_args()
+    recommend_movies(args.title)
